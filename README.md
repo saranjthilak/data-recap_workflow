@@ -1,10 +1,24 @@
-## Recap: Pipelines and Handling Imbalanced Datasets ⚖️
+# 📊 Data Recap Workflow
 
-In this recap we'll go through handling imbalanced datasets using a Kaggle example dataset - the Dish Network Hackathon 📚 We'll cover:
+A fully automated data workflow pipeline that ingests, transforms, stores, and reports data using modern cloud-native tools and practices. Built to demonstrate robust ETL orchestration, cloud infrastructure provisioning, and data analytics automation.
 
--  Building pipelines for our data processing 🔧
--  The importance of thoughtful cross-validation 📁
--  Trying fine-tuned models 💡
--  A wide variety strategies to deal with class imbalance ⚖️
+## 🚀 Features
 
-Let's get coding! 💪
+- Terraform-powered infrastructure setup on GCP
+- Automated data ingestion and transformation with Apache Airflow + DBT
+- Scalable data warehouse using Google BigQuery
+- Interactive dashboards via Google Data Studio
+- Modular and reusable workflow structure
+
+## 🛠️ Tech Stack
+
+- **Cloud**: Google Cloud Platform (GCP)
+- **Orchestration**: Apache Airflow
+- **Transformation**: dbt (Data Build Tool)
+- **Storage**: Google BigQuery
+- **Visualization**: Google Data Studio
+- **Infra as Code**: Terraform
+- **Containerization**: Docker
+
+## 📦 Folder Structure
+
